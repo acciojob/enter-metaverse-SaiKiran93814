@@ -7,8 +7,9 @@
 </head>
 
 <body>
-	 <h1 id="status">Entered Metaverse</h1>
-
+	<div id="status">
+    Enter the Metaverse
+  </div>
   <button id="enterBtn">Enter</button>
 
   <script>
@@ -16,9 +17,9 @@
     const enterBtn = document.getElementById("enterBtn");
 
     enterBtn.addEventListener("click", () => {
-      statusElement.outerHTML = '<h1 id="status">Entered Metaverse</h1>';
+      statusElement.innerHTML = '<h1>Entered Metaverse</h1>';
     });
-  </script>
+  </script
 
 </body>
 
